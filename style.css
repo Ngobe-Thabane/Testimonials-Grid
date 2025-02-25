@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.testimonials-container{
+  box-sizing: border-box;
+  width: 900px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-self: center;
+  gap: 1em;
+  margin: 2em;
+}
+
+.testimonials-card{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.3rem;
+  column-gap:1em;
+  row-gap: .5em;
+}
+
+.user-pic{
+  width: 50px;
+  height: 50px;
+}
+
+.profile{
+  display: flex;
+  gap: 1em;
+}
+
+.blk-card{
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  background-color: black;
+  color: white;
+  padding: 1em;
+  border-radius: 1em;
+  position: relative;
+}
+.blk-card.arrow {
+  margin-top: 40px;
+}
+
+.blk-card.arrow::after{
+  content: " ";
+  position: absolute;
+  bottom: -9px;
+  left: 30px;
+  border-top: 10px solid black;
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
+}
+.name{
+  font-weight: 600;
+  font-size: 1.5em;
+}
+
+.p-1{
+  padding: 1em;
+}
+
+.p-2{
+  font-weight: 400;
+}
+.role{
+  font-size: .8em;
+}
+
+.border-card{
+  border: 1.5px solid black;
+  padding: 1em;
+  border-radius: 1.8em;
+}
+
+.pic-2{
+  width: 100%;
+  border-radius: 1em;
+}
+
+.stars{
+  display: flex;
+  gap: .5em;
+}
+.star{
+  width: 15px;
+  height: 15px;
+}
+
+.rate-profile{
+  display: flex;
+  flex-direction: column;
+  gap: .5em;
+}
+
+.card-4{
+  background-color: black;
+  color: white;
+  padding: 2em;
+  border-radius: 1em;
+}
+
+.r-2{
+  color: gray;
+  font-size: 1em;
+}
+
+.card-5{
+  border: 1px solid black;
+  padding: 2em 4em;
+  grid-column: span 2;
+  text-align: center;
+  border-radius: .9em;
+}
