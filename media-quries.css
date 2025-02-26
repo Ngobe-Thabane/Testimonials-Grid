@@ -1,0 +1,14 @@
+
+
+@media (max-width: 950px){
+  .testimonials-container{
+    display: flex;
+    flex-direction: column;
+    width: initial;
+    margin: 1em 1em;
+  }
+
+  .card-5{
+    grid-column: span 1;
+  }
+}
