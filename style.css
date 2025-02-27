@@ -1,25 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+
+}
+
 :root{
   font-size: 0.875em;
 }
+
 
 html{
   scroll-behavior: smooth;
 }
 
+body{
+  font-family: "Roboto", serif;
+}
+
 .testimonials-container{
-  margin: 3em 0em;
-  font-size: 1.5em;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr 1fr;
   row-gap: 1em;
-  justify-self: center;
-  width: 70%;
-  box-sizing: border-box;
+  /* justify-self: center; */
+  margin: 3em;
+  line-height: 1.5em;
+  font-size: 1.5em;
 }
 
 .testimonials-card{
-  padding: 0em 1em;
+  padding: 1.5em;
   border-radius: 1em;
+  box-sizing: border-box;
 }
 
 .user-pic{
@@ -33,6 +46,7 @@ html{
 
 .profile{
   display: flex;
+  align-items: center;
   gap: 1em;
 }
 
@@ -40,13 +54,14 @@ html{
   grid-column: span 2;
   text-align: center;
   border: 2px solid black;
+  padding-bottom: 1em;  
 }
 
 
 .blk-card{
   background-color: black;
   color: white;
-  padding: .5em;
+  padding: 1em;
   position: relative;
   border-radius: 1em;
 }
@@ -112,4 +127,13 @@ button{
 
 .testimonies{
   padding: 1.5em;
+}
+
+.p-1{
+  margin-bottom: 2em;
+}
+
+.flex{
+  display: flex;
+  justify-content: center;
 }
